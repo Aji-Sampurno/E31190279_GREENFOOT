@@ -1,4 +1,4 @@
-import greenfoot.*;
+import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 
 /**
  * Write a description of class fishmove here.
@@ -13,7 +13,6 @@ public class fishmove extends Actor
         GreenfootImage image = getImage();
         image.scale(image.getWidth() /11, image.getHeight() /11);
         setImage(image);
-        
     }
     
     private int direction = 2;

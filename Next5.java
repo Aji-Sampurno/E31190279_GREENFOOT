@@ -12,18 +12,12 @@ public class Next5 extends NextLevel
     {
        if(Greenfoot.isKeyDown("ENTER"))
         {
+           ((level4)getWorld()).background02.stop();
            this.getWorld().removeObject(this);
            End end = new End();
            Greenfoot.setWorld(end);
            Points.countercat=0;
-           ((level4)getWorld()).background02.stop();
         }
-    }
-    public Next5()
-    {
-        GreenfootImage image = getImage();
-        image.scale(image.getWidth() /2, image.getHeight() /2);
-        setImage(image);
     }
     /**
      * Act - do whatever the Next5 wants to do. This method is called whenever

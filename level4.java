@@ -93,7 +93,7 @@ public class level4 extends World
         Fish5.setLocation(824,72);
         fishmove.setLocation(762,313);
         fishmove4.setLocation(600,547);
-        fishmove3.setLocation(111,443);
+        fishmove3.setLocation(111,426);
         fishmove2.setLocation(282,180);
     }
 }

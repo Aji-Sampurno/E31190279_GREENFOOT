@@ -120,7 +120,7 @@ public class Cat extends Actor
             Points.countercat+=10;
             eating.play();
         }
-        if (isTouching(fishmove.class))
+        if (isTouching(fishmove.class)) 
         {
             removeTouching(fishmove.class);
             Points.countercat+=10;

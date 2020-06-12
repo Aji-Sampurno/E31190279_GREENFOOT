@@ -37,6 +37,7 @@ public class dog extends level1A
         image.scale(image.getWidth()/3, image.getHeight()/3);
         setImage(image);
     }
+    
     /**
      * Act - do whatever the dog wants to do. This method is called whenever
      * the 'Act' or 'Run' button gets pressed in the environment.
